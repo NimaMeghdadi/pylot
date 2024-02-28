@@ -26,19 +26,19 @@ We provide a Docker image with both Pylot and CARLA already setup.
 
 ```console
 docker pull erdosproject/pylot
-nvidia-docker run -itd --name pylot -p 20022:22 erdosproject/pylot /bin/bash
+sudo nvidia-docker run -itd --name pylot -p 20022:22 erdosproject/pylot /bin/bash
 ```
 
 Following, start the simulator in the container:
 
 ```console
-nvidia-docker exec -i -t pylot /home/erdos/workspace/pylot/scripts/run_simulator.sh
+sudo nvidia-docker exec -i -t pylot /home/erdos/workspace/pylot/scripts/run_simulator.sh
 ```
 
 Finally, start Pylot in the container:
 
 ```console
-nvidia-docker exec -i -t pylot /bin/bash
+sudo nvidia-docker exec -i -t pylot /bin/bash
 cd ~/workspace/pylot/
 python3 pylot.py --flagfile=configs/detection.conf
 ```
