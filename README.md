@@ -68,10 +68,11 @@ the one below:
 
 ## Manual installation instructions
 before you start be sure that you have installed these requirements:
-- Python 3.7
-- cuda 11.0
-- cudnn 8
-- at least 12 GB GPU ram
+- [Linux 20.04](https://releases.ubuntu.com/focal/)
+- [Python 3.7](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
+- [cuda 11.0](https://developer.nvidia.com/cuda-toolkit-archive)
+- [cudnn 8](https://developer.nvidia.com/rdp/cudnn-archive)
+- at least 12 GB GPU ram([issue 229](https://github.com/erdos-project/pylot/issues/229))
 
 Alternatively, you can install Pylot on your base system by executing the
 following steps:
