@@ -67,6 +67,12 @@ the one below:
 ![Pylot obstacle detection](/doc/source/images/pylot-obstacle-detection.png)
 
 ## Manual installation instructions
+before you start be sure that you have installed these requirements:
+- Python 3.7
+- cuda 11.0
+- cudnn 8
+- at least 12 GB GPU ram
+
 Alternatively, you can install Pylot on your base system by executing the
 following steps:
 
