@@ -84,8 +84,8 @@ pip install -e ./
 
 Next, start the simulator:
 ```console
-cd /home/nima/desktop/pylot
-export PYLOT_HOME=/home/nima/desktop/pylot
+cd /home/nima/Desktop/pylot
+export PYLOT_HOME=/home/nima/Desktop/pylot
 export CARLA_HOME=$PYLOT_HOME/dependencies/CARLA_0.9.10.1
 ./scripts/run_simulator.sh
 ```
