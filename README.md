@@ -81,6 +81,11 @@ following steps:
 ./install.sh
 pip install -e ./
 ```
+Next, start the simulator:
+```console
+cd /home/nima/desktop
+export PYLOT_HOME=/home/nima/desktop/
+```
 
 Next, start the simulator:
 ```console
