@@ -92,6 +92,7 @@ export CARLA_HOME=$PYLOT_HOME/dependencies/CARLA_0.9.10.1
 
 In a different terminal, setup the paths:
 ```console
+export PYLOT_HOME=/home/nima/Desktop/pylot
 export CARLA_HOME=$PYLOT_HOME/dependencies/CARLA_0.9.10.1/
 cd $PYLOT_HOME/scripts/
 source ./set_pythonpath.sh
@@ -101,6 +102,10 @@ Finally, run Pylot:
 ```console
 cd  $PYLOT_HOME/
 python3 pylot.py --flagfile=configs/detection.conf
+```
+Or you can run simple config of Pylot:
+```console
+python3 pylot.py --flagfile=configs/perfect_detection.conf --visualize_detected_obstacles=False
 ```
 
 # Pylot components
