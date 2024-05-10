@@ -96,6 +96,9 @@ export PYLOT_HOME=/home/nima/Desktop/pylot
 export CARLA_HOME=$PYLOT_HOME/dependencies/CARLA_0.9.10.1/
 cd $PYLOT_HOME/scripts/
 source ./set_pythonpath.sh
+conda activate pylot
+cd  $PYLOT_HOME/
+python3 pylot.py --flagfile=configs/perfect_detection.conf --visualize_detected_obstacles=False
 ```
 
 Finally, run Pylot:
