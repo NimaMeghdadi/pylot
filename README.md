@@ -94,6 +94,7 @@ In a different terminal, setup the paths:
 ```console
 export PYLOT_HOME=/home/nima/Desktop/pylot
 export CARLA_HOME=$PYLOT_HOME/dependencies/CARLA_0.9.10.1/
+export PATH="${PATH}:/usr/local/nvidia/bin:/usr/local/cuda/bin"
 cd $PYLOT_HOME/scripts/
 source ./set_pythonpath.sh
 conda activate pylot
